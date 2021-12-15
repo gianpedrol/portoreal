@@ -1,0 +1,204 @@
+#sobre{
+    #menu1{
+        display: none;
+    }
+}
+.header-nossa-historia{
+    background-image: url('../porto-real-sa-theme/assets/Banner/header-historia.png');
+    background-size: cover;
+    height: 100vh;
+    .box-pai-header{
+        width: 50%;
+        margin-bottom: -100px;
+        .box-header{
+            background:#15C7B2;
+            width: 600px;
+            height: 320px;
+            padding: 40px;
+            h4{
+                padding-left: 50px;
+                text-align: left;
+                font: normal normal bold 18px/30px Urbanist;
+                letter-spacing: 0px;
+                color: #0C2B5C;
+                max-width: 70%;
+            }
+        }
+    }
+
+    .titulo-nossa-historia{
+        width: 50%;
+        h3{
+            font: normal normal bold 70px/85px Urbanist;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            max-width: 50%;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.secao-texto-historia{
+    background-color: #FCFCFC;
+    box-shadow: 0px 9px 37px #00000029;
+    .texto-nossa-historia{
+        padding: 50px 0;
+        max-width: 80%;
+        p{
+            font: normal normal normal 18px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;  
+        }
+
+    }
+}
+
+.secao-regiao{
+    min-height: 100vh;
+
+    .bg-regiao{
+        background-image: url('../porto-real-sa-theme/assets/images/map-paralax-regiao.png');
+        background-size: cover;
+        min-height: 100vh;
+        background-attachment: fixed;
+        
+ 
+    }
+    .box-titulo-regiao{
+        background:#15C7B2;
+        width: 250px;
+        height: auto;
+        padding: 40px;
+        position: absolute;
+        right: 0;
+        h2{
+            font: normal normal bold 70px/65px Urbanist;
+            letter-spacing: 0px;
+            color: #0C2B5C;
+            text-transform: uppercase;
+        }
+        h2:first-child{
+            color: #FFFFFF;
+        }
+    }
+}
+
+.secao-conheca-empreendimento{
+    background: #FCFCFC;
+    padding: 50px 0;
+    box-shadow: 0px -9px 37px #00000029;
+        p{
+            font: normal normal normal 18px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;   
+        }
+    .ilustra-historia{
+        img{
+            padding-top: 40px;
+            padding-left: 70px;
+            max-width: 50%;
+        }
+        a{
+            max-width: 200px;
+            display: block;
+            margin-top: 70px;
+            margin-left: 70px;
+            padding: 15px;
+            border: 1px solid #0C2B5C ;
+            font: normal normal bold 16px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;
+        }
+        a:hover{
+            background: #15C7B2;
+            color: #FFFFFF;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+  
+
+    .header-nossa-historia{
+        background-image: url('../porto-real-sa-theme/assets/Banner/header-historia.png');
+        background-size: cover;
+        height: 90vh;
+        .box-header{
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            h4{
+                padding-left: 50px;
+                text-align: left;
+                font: normal normal bold 16px/30px Urbanist;
+                letter-spacing: 0px;
+                color: #0C2B5C;
+                max-width: 90%;
+            }
+        }
+    
+        .titulo-nossa-historia{
+            display: none;        
+        }
+    }
+
+    .secao-texto-historia{
+        padding-top: 80px;
+        background-color: #FCFCFC;
+        box-shadow: 0px 9px 37px #00000029;
+        .texto-nossa-historia{
+            padding: 50px 0;
+            max-width: 90%;
+            p{
+                font: normal normal normal 18px/30px Urbanist, sans-serif;
+                letter-spacing: 0px;
+                color: #0C2B5C;  
+            }
+    
+        }
+    }
+    
+.secao-regiao{
+    min-height: 35vh;
+
+    .bg-regiao{
+        background-image: url('../porto-real-sa-theme/assets/images/map-paralax-regiao.png');
+        background-size: contain;
+        min-height: 35vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;    
+ 
+    }
+    .box-titulo-regiao{
+        background:#15C7B2;
+        width: 80px;
+        height: auto;
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        h2{
+            font: normal normal bold 20px/20px Urbanist;
+            letter-spacing: 0px;
+            color: #0C2B5C;
+            text-transform: uppercase;
+        }
+        h2:first-child{
+            color: #FFFFFF;
+        }
+    }
+}
+
+.titulo-mobile{
+    h3{
+        margin-top: 20%;
+        text-align: center;
+        font: normal normal bold 35px/20px Urbanist;
+        letter-spacing: 0px;
+        color: #0C2B5C;
+        text-transform: uppercase;
+    }
+}
+    
+}

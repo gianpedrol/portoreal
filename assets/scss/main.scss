@@ -1,0 +1,40 @@
+/*
+Theme Name: newtheme
+Author: your name
+Version: 1.0
+License: All rights reserved!
+Text Domain: newtheme
+*/
+@import 'partial/button.scss';
+@import 'partial/header.scss';
+@import 'partial/form.scss';
+@import 'partial/footer.scss';
+
+@import 'pages/contato.scss';
+@import 'pages/home.scss';
+@import 'pages/empreedimentos.scss';
+@import 'pages/sobre.scss';
+@import 'pages/fiquepordentro.scss';
+@import 'pages/landingpage.scss';
+
+
+html{
+    font-family: 'Urbanist', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.bgBlue {
+	background-color: #0C2B5C;
+}
+
+.img-responsive{
+    height: auto;
+    object-fit: contain;
+}
+
+body{
+    background-color: #FCFCFC;
+    
+}

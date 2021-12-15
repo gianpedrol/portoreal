@@ -1,0 +1,428 @@
+.banner-empreendimentos{
+    margin: 100px 0;
+    display: flex;
+    align-content: center;
+    .container-banner{
+        display: flex;
+        justify-content: center;
+
+        .titulo-banner{
+            max-width: 600px;
+            h2{
+                font: normal normal bold 60px/115px Urbanist, sans-serif;
+                letter-spacing: 0px;
+                color: #0C2B5C;
+                text-transform: uppercase;
+            }
+            p{
+                font: normal normal normal 18px/30px Urbanist, sans-serif;
+                letter-spacing: 0px;
+                color: #0C2B5C; 
+            }
+        }
+    }
+}
+
+.mapa-empreendimento{
+    img{
+        width: 100%;
+    }
+}
+
+
+.secao-proposta{
+    width: 100vw;
+    margin-top: 5px;
+    padding: 80px 0;
+    box-shadow: 0px -9px 37px #00000029;
+    .texto-proposta{        
+        width: 800px;
+        p{
+            font-family: Urbanist, sans-serif;
+            font-size: 16px;
+            color: #0C2B5C;
+
+        }
+    }
+}
+
+.secao-video{
+    background: #15C7B2;
+    padding-top: 30px;
+    padding-bottom: 190px;
+    .titulo-video{
+        width: 800px;
+        h4{
+            font: normal normal bold 18px/40px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C; 
+        }
+    }
+}
+
+.video-institucional{
+    background: #0C2B5C;
+    width: 600px;
+    height: 300px;
+    margin-top: -170px;
+}
+
+.secao-historia{
+    margin: 50px 0;
+    .container-texto-historia{
+        width: 800px;
+        border: 1px solid #426AA8;;
+        padding: 120px;
+        h3{
+            color: #15C7B2;
+            font: normal normal bold 24px/40px Urbanist, sans-serif;
+            padding: 40px 0;
+        }
+        p{
+            font: normal normal normal 18px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;  
+        }
+    }
+    .image-float-right{
+        img{
+            max-width: 250px;
+            position: absolute;
+            right: 90px;
+            margin-top: 400px;
+        }
+    }
+    .image-float-left{
+        img{
+            max-width: 420px;
+            position: absolute;
+            left: -90px;
+            margin-top: 500px;
+        }
+    }
+}
+
+.secao-principios{
+    background-color: #0C2B5C;
+    height: 600px;
+    width: 100vw;
+    margin-top: 300px;
+    padding-top: 100px;
+    .container-slides-principios{
+        display: flex;
+        justify-content: center;
+        width: 800px;
+        .icons-slide-empreendimentos{
+            padding-top: 50px;
+            img{
+                max-width: 15%;
+                padding-bottom: 20px;
+            }
+            h3{
+                padding-left: 15px;
+                font: normal normal normal 24px/30px Urbanist, sans-serif;
+                color: #fcfcfc;
+            }
+        }
+    }
+    .titulo-secao-slide{
+        background-color: #15C7B2;
+        width: 100vw;
+        margin-top: -190px;
+        height: 190px;
+        padding: 20px 50px;
+        h2{
+            text-align: left;
+            font: normal normal bold 65px/70px Urbanist;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            color: #0C2B5C;  
+        }
+        h2:first-child{
+            text-align: left;
+            font: normal normal bold 65px/70px Urbanist;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            color:white; 
+            }
+        }
+        .texto-slide-empreendimentos{
+            background-color: white;
+            width: 100vw;
+            height:100%;
+        }
+    }
+
+
+    .secao-demandas{
+        margin-top: 30px;
+        .container-demandas{
+            display: flex;
+            justify-content: flex-start;
+            width: 700px;
+            h2{
+                padding: 40px 0;
+                font: normal normal bold 35px/40px Urbanist, sans-serif;
+                letter-spacing: 0px;
+                text-transform: uppercase;
+                color: #0C2B5C;
+            }
+            .listas{
+                .lista-demandas{
+                    h3{
+                       color: #15C7B2; 
+                       font: normal normal bold 22px/35px Urbanist, sans-serif;
+                       padding-top: 30px;
+                    }
+                    ul{
+                        li{
+                            padding: 15px 0;
+                            font: normal normal normal 18px/30px Urbanist, sans-serif;
+                            letter-spacing: 0px;
+                            color: #0C2B5C;  
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .secao-parceiros{
+        border-top: 1px solid #707070;
+        width: 100vw;
+        padding: 120px 0 ;
+        height: 400px;
+        .container-parceiros{
+            width: 800px;
+            .titulo-parceiros{
+                h3{ 
+                    color: #0C2B5C; 
+                    font: normal normal bold 35px/35px Urbanist, sans-serif;
+                    padding: 30px 0; 
+                }
+            }
+            .logos-parceiros{
+                img{
+                    margin: 0 20px;
+                    max-width: 130px;
+                    padding-bottom: 30px;
+                }
+            }          
+
+        }
+    }
+    #economia{
+        cursor: pointer;
+        h3{
+            font-weight: 800;
+        }
+    }
+    #ecologia{
+        cursor: pointer;
+    }
+    #ecoparque{
+        cursor: pointer;
+    }
+    .active-slide{
+        font-weight: bold;
+    }
+    .slide-economia{
+        max-width: 550px;
+        padding-left: 8%;
+        margin-left: 2%;
+        p{
+            font: normal normal normal 18px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;  
+        }
+        h2{
+            text-align: center;
+        }
+    }
+
+
+
+    .set-slide-economia{
+        position: absolute;
+        right: -20px;
+        i{
+            font-size: 122px;
+            color: white;
+        }
+    }
+    .set-slide-ecologia{
+        display: none;
+        position: absolute;
+        right: -20px;
+        i{
+            font-size: 122px;
+            color: white;
+        }
+    }
+    .set-slide-ecoparque{
+        display: none;
+        position: absolute;
+        right: -20px;
+        i{
+            font-size: 122px;
+            color: white;
+        }
+    }
+
+    .slide-ecologia-industrial{
+        max-width: 600px;
+        padding-left: 8%;
+        margin-left: 2%;
+        display: none;
+        p{
+            font: normal normal normal 18px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;  
+        }
+    }
+    .slide-ecoparque-industrial{
+        max-width: 600px;
+        padding-left: 8%;
+        margin-left: 2%;
+        display: none;
+        p{
+            font: normal normal normal 18px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;  
+        }
+        i{
+            font-size: 16px;
+
+        }
+        .lista-ecoparque-slide{
+            margin-left: 80px;
+        }
+        .lista-ecoparque-slide>span{
+            padding: 15px;
+            font: normal normal normal 18px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;  
+        }
+    }
+
+
+    @media screen and (max-width: 800px){
+        .banner-empreendimentos{
+            margin: 0;
+            .container-banner {
+                .titulo-banner{
+                    max-width: 80vw;
+                    h2{
+                        font-size: 34px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .mapa-empreendimento{
+            img{
+                max-width: 100%;
+            }
+        }
+        .secao-principios{
+            display: none;
+        }
+
+        .secao-historia{
+            .container-texto-historia{
+                padding: 10px;
+            }
+        }
+
+        .image-float-right{
+            display: none;
+        }
+        .image-float-left{
+            display: none;
+        }
+        .secao-demandas{
+            padding: 30px ;
+            margin-top: 30px;
+            .container-demandas{
+                display: flex;
+                justify-content: flex-start;
+                max-width: 700px;
+            }
+        }
+        .secao-parceiros{
+            width: 100%;
+            padding: 120px 0 ;
+            height: 400px;
+            .container-parceiros{
+                max-width: 800px;   
+    
+            }
+        }
+
+
+    }
+
+    .principios-mobile{
+        background-color: #0C2B5C;
+        height:100%;
+        max-width: 100%;
+        padding: 50px 30px;
+        text-align: center;
+        .titulo-principios-mobile{
+            h2{
+                color: #fcfcfc;
+                font: normal normal bold 35px/35px Urbanist, sans-serif;
+                padding: 30px 0;  
+            }
+        }
+        p{
+            text-align: center;
+            font: normal normal normal 16px/30px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: white !important;  
+        }
+        .box-titulo-slide{
+            text-align: center;
+            padding-top: 50px;
+            img{
+                text-align: center;
+                max-width: 80px;
+                padding-bottom: 10px;
+
+            }
+            h3{
+                text-align: center;
+                font: normal normal normal 24px/20px Urbanist, sans-serif;
+                color: #fcfcfc;
+                padding-bottom: 20px;
+            }
+            .slide-mobile-economia{
+                padding: 50px;
+                max-width: 100%;
+            }
+
+        }
+        .mobile-ecologia{
+            border-top: 1px solid #fcfcfc ;
+            padding-top: 50px;    
+            max-width: 100%;
+        }
+        .slide-mobile-ecoparque{
+            border-top: 1px solid #fcfcfc ;
+            padding-top: 50px;    
+            max-width: 100%;
+            .lista-ecoparque-slide{
+                margin-left: 80px;
+                text-align: left;
+            }
+            .lista-ecoparque-slide>span{
+                padding: 15px;
+                
+                font: normal normal normal 18px/30px Urbanist, sans-serif;
+                letter-spacing: 0px;
+                color: white;  
+            }
+        }
+       
+    }

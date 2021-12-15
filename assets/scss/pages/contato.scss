@@ -1,0 +1,60 @@
+.header-contato{
+    margin-top: 150px;
+    .box-texto-contato{
+        h2{
+            text-align: left;
+            font: normal normal bold 60px/75px Urbanist;
+            color: #0C2B5C;
+            text-transform: uppercase;
+        }
+        p{
+            padding: 30px 0;
+            font: normal normal normal 18px/25px Urbanist, sans-serif;
+            letter-spacing: 0px;
+            color: #0C2B5C;  
+        }
+    }
+    .box-imagem-contato{
+        img{
+            width: 90%;
+        }
+    }
+}
+
+.secao-formulario{
+    form{
+        input{
+            border: 0;
+            background: #fcfcfc;
+            color: #0C2B5C;
+            font: normal normal bold 18px/25px Urbanist, sans-serif;
+            padding: 8px 0;
+        }
+        input:focus{
+            outline: 0;
+        }
+        input[type=text]{
+            width: 48%;
+            border-bottom: 2px solid #0C2B5C;
+            margin-right: 2%;
+        }
+        input[type=email]{
+            width: 48%;
+            border-bottom: 2px solid #0C2B5C ;
+        }
+        input[type=textarea]{
+            height: 200px;
+            width: 100%;
+            border-bottom: 2px solid #0C2B5C ;
+        }
+        input[type=submit]{
+            margin: 35px 0;
+            width: 100px;
+            border: 1px solid #0C2B5C;
+            margin-right: 2%;
+        }
+        input[type=submit]:hover{
+            background-color: #15C7B2;
+        }
+    }
+}

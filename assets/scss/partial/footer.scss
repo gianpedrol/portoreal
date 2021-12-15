@@ -1,0 +1,58 @@
+footer{ 
+    margin-top: 0;
+    p{
+        font-weight: normal;
+        font: normal normal normal 16px/25px Urbanist;   
+    }
+    a{
+        color: white;
+        font-weight: normal;
+        font: normal normal normal 14px/25px Urbanist;  
+    }
+    .social-media{
+        a{
+            color: white;
+            font-weight: normal;
+            font: normal normal normal 14px/25px Urbanist;  
+            img{
+                padding: 0 10px;
+            }
+        }
+
+    }
+}
+
+.bgblue{
+    background-color: #0C2B5C;
+}
+
+#colophon{
+    padding: 0px 0px 0px 0px;
+}
+
+.site-footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    a{
+        text-decoration: none !important;
+        color: white !important;
+    }
+    .footer-icone{
+        height: auto;
+        color: white;
+    }
+    #icon-facebook{
+        width: 32px;
+    }
+    #icon-insta{
+        width:40px;
+    }
+    #icon-whatsapp{
+        width: 42px;
+    }
+    #seta-up{
+        width: 50px;
+        padding-top: 10px;
+    }
+
+}
